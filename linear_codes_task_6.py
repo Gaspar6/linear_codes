@@ -30,6 +30,7 @@ if __name__ == '__main__':
     B = [[1, 0, 0, 2, 4], [0, 1, 0, 1, 0], [0, 0, 1, 5, 6]]
     k = 7
 
-
-    print(linear_combination(B, k))
+    lin_comb = linear_combination(B, k)
+    print(lin_comb)
+    print(len(lin_comb))
 
