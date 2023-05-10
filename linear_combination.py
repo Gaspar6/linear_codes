@@ -1,5 +1,11 @@
 def linear_combination(base, k):
-    # all linear combinations of vectors from base in field Zk
+    """
+
+    :param base:
+    :param k:
+    :return: list of all linear combinations of vectors from base in field Z_k
+
+    """
 
     Z_k = [ i for i in range(k)]
     result = []
@@ -25,7 +31,6 @@ def linear_combination(base, k):
 
 
 if __name__ == '__main__':
-    print("Generowanie")
 
     B = [[1, 0, 0, 2, 4], [0, 1, 0, 1, 0], [0, 0, 1, 5, 6]]
     k = 7
