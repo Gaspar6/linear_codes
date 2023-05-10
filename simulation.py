@@ -93,6 +93,9 @@ def send(M, k):
 
 
 if __name__ == '__main__':
+    """
+    simulation 
+    """
     random.seed(2137)
 
     # a
